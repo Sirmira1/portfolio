@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Nikola Anastasijevic</title>
+<meta name="description" content="Projects by Nikola Anastasijevic: web apps, mobile builds, and an automated trading bot using live chart data.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body id="top">
+<div class="page">
+
+<!-- ===================== HEADER ===================== -->
+<header class="site-header">
+  <nav class="nav wrap">
+    <a href="index.html" class="logo"><span class="dot"></span>nikola<span class="muted">.dev</span></a>
+    <button class="nav-toggle mono" id="navToggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="contact.html" class="nav-cta">Get in touch</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ===================== PAGE HERO ===================== -->
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="eyebrow reveal">projects</div>
+      <h1 class="reveal">Things I've built.</h1>
+      <p class="lede reveal">These are projects I cared enough about to actually finish. Most are full-stack, and most taught me something the hard way.</p>
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS ===================== -->
+  <section style="padding-top:36px;">
+    <div class="wrap">
+      <div class="filter-bar reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="mobile">Mobile</button>
+        <button class="filter-btn" data-filter="python">Python</button>
+        <button class="filter-btn" data-filter="game">Game dev</button>
+      </div>
+
+      <div class="project-grid">
+
+        <div class="project-card reveal" data-tags="web">
+          <div class="project-thumb thumb-1">
+            <span class="status live"><span class="d"></span>live</span>
+            <span class="tag">Web · Next.js · Stripe</span>
+          </div>
+          <div class="project-body">
+            <h3>Lusso Veloce</h3>
+            <p>A luxury exotic car rental platform with premium branding, curated fleet browsing, a full reservation flow, Stripe payments, and a complete Supabase backend.</p>
+            <div class="project-meta"><span>Next.js</span><span>Supabase</span><span>Stripe</span><span>Vercel</span></div>
+            <a href="https://lusso-veloce.vercel.app" class="project-link" target="_blank" rel="noopener noreferrer">View project <span class="arr">→</span></a>
+          </div>
+        </div>
+
+        <div class="project-card reveal" data-tags="mobile">
+          <div class="project-thumb thumb-2">
+            <span class="status build"><span class="d"></span>in progress</span>
+            <span class="tag">Mobile · React Native</span>
+          </div>
+          <div class="project-body">
+            <h3>FlyBy</h3>
+            <p>An in-progress driving app with live speed tracking, a global leaderboard, and a toggleable fog-of-war map where cities are unlocked through exploration.</p>
+            <div class="project-meta"><span>React Native</span><span>Expo</span><span>Mapbox</span><span>Railway</span></div>
+            <a href="https://fly-by-rosy.vercel.app/" class="project-link" target="_blank" rel="noopener noreferrer">View project <span class="arr">→</span></a>
+          </div>
+        </div>
+
+        <div class="project-card reveal" data-tags="web">
+          <div class="project-thumb thumb-7">
+            <span class="status live"><span class="d"></span>live</span>
+            <span class="tag">Web · Garage Management</span>
+          </div>
+          <div class="project-body">
+            <h3>Project Garage</h3>
+            <p>A car management app where users can add their vehicles, track modifications with exact costs, log services, and monitor total ownership expenses over time.</p>
+            <div class="project-meta"><span>Next.js</span><span>Database</span><span>Expense Tracking</span></div>
+            <span class="project-link">Live link coming soon</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal" data-tags="python web">
+          <div class="project-thumb thumb-3">
+            <span class="status beta"><span class="d"></span>testing</span>
+            <span class="tag">Python · Trading System</span>
+          </div>
+          <div class="project-body">
+            <h3>Automated Trading Bot</h3>
+            <p>A Python trading bot that reads live market charts and makes automated long/short decisions for gold, with a Next.js dashboard for monitoring while in testing.</p>
+            <div class="project-meta"><span>Python</span><span>OANDA API</span><span>Next.js</span></div>
+            <a href="https://tradebot-beta.vercel.app/" class="project-link" target="_blank" rel="noopener noreferrer">View project <span class="arr">→</span></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== MY DESIGNS ===================== -->
+  <section style="padding-top:20px;">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">designs</div>
+        <h2>My Designs.</h2>
+        <p>Static website concepts focused on visual direction, typography, and frontend polish.</p>
+      </div>
+
+      <div class="project-grid">
+        <div class="project-card reveal" data-tags="web">
+          <div class="project-thumb thumb-8">
+            <span class="status live"><span class="d"></span>live</span>
+            <span class="tag">Design · HTML/CSS/JS</span>
+          </div>
+          <div class="project-body">
+            <h3>Soft Design</h3>
+            <p>A minimal, Gen Z-inspired static design concept with clean hierarchy, soft spacing, and modern typography.</p>
+            <div class="project-meta"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Vercel</span></div>
+            <a href="https://soft-design.vercel.app/index.html" class="project-link" target="_blank" rel="noopener noreferrer">View project <span class="arr">→</span></a>
+          </div>
+        </div>
+
+        <div class="project-card reveal" data-tags="web">
+          <div class="project-thumb thumb-9">
+            <span class="status live"><span class="d"></span>live</span>
+            <span class="tag">Design · HTML/CSS/JS</span>
+          </div>
+          <div class="project-body">
+            <h3>Casual Design</h3>
+            <p>A casual, modern static design with approachable copy, relaxed visual rhythm, and mobile-friendly section flow.</p>
+            <div class="project-meta"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Vercel</span></div>
+            <a href="https://casual-design-five.vercel.app/" class="project-link" target="_blank" rel="noopener noreferrer">View project <span class="arr">→</span></a>
+          </div>
+        </div>
+
+        <div class="project-card reveal" data-tags="web">
+          <div class="project-thumb thumb-10">
+            <span class="status live"><span class="d"></span>live</span>
+            <span class="tag">Design · HTML/CSS/JS</span>
+          </div>
+          <div class="project-body">
+            <h3>Noir Design</h3>
+            <p>A mood-driven, high-contrast static design with cinematic styling, minimal UI, and a mysterious visual identity.</p>
+            <div class="project-meta"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Vercel</span></div>
+            <a href="https://mysterious-design.vercel.app/" class="project-link" target="_blank" rel="noopener noreferrer">View project <span class="arr">→</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CTA BAND ===================== -->
+  <section class="cta-band">
+    <div class="wrap reveal">
+      <div class="eyebrow center" style="justify-content:center;">let's_talk</div>
+      <h2>Want the full story behind any of these?</h2>
+      <p>I'm always happy to walk through the decisions, trade-offs, and things that broke along the way.</p>
+      <div class="hero-actions">
+        <a href="contact.html" class="btn btn-primary">Get in touch <span class="arr">→</span></a>
+        <a href="about.html" class="btn btn-ghost">More about me</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><span class="dot"></span>nikola<span class="muted">.dev</span></a>
+        <p>Software Development student at Mohawk College. Web-app focused builder who likes shipping real projects.</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4>Pages</h4>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Elsewhere</h4>
+          <a href="https://github.com/Sirmira1" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/nikola-anastasijevic-a737632ba/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> Nikola. Built from scratch, tested like everything else I ship.</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </div>
+</footer>
+
+</div>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
